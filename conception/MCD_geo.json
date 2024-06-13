@@ -1,16 +1,16 @@
 {
-  "width": 709,
+  "width": 406,
   "height": 397,
   "cx": [
-    [ "CATEGORY", 86 ],
-    [ "BELONGS_TO", 291 ],
-    [ "SAVES", 463 ],
-    [ "PLACE", 291 ],
-    [ "ADDS", 463 ],
-    [ "USER", 636 ],
-    [ "HAS", 291 ],
-    [ "COMMENT", 463 ],
-    [ "POSTS", 636 ]
+    [ "CATEGORY", 50 ],
+    [ "BELONGS_TO", 164 ],
+    [ "SAVES", 263 ],
+    [ "PLACE", 164 ],
+    [ "ADDS", 263 ],
+    [ "USER", 362 ],
+    [ "HAS", 164 ],
+    [ "COMMENT", 263 ],
+    [ "POSTS", 362 ]
   ],
   "cy": [
     [ "CATEGORY", 43 ],

@@ -30,7 +30,7 @@ CREATE TABLE Place (
   city     VARCHAR(42),
   country  VARCHAR(42),
   lat      VARCHAR(42),
-  lon     VARCHAR(42),
+  long     VARCHAR(42),
   image    VARCHAR(42),
   email    VARCHAR(42) NOT NULL
 );
@@ -44,7 +44,8 @@ CREATE TABLE Saves (
 CREATE TABLE User (
   PRIMARY KEY (email),
   email    VARCHAR(42) NOT NULL,
-  nickname VARCHAR(42)
+  nickname VARCHAR(42),
+  password VARCHAR(42)
 );
 
 ALTER TABLE Belongs_to ADD FOREIGN KEY (place_id) REFERENCES Place (place_id);

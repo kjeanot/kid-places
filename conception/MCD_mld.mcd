@@ -11,7 +11,7 @@ Saves: #email > User > email, _#place_id > Place > place_id
 :::
 Place: place_id, name, street, zip, city, country, lat, long, image, #email > User > email
 :::
-User: email, nickname
+User: email, nickname, password
 :
 
 

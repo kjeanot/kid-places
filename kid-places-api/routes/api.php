@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\CommentController;
+use App\Http\Controllers\PlaceController;
+use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +25,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return ('taggle');
 });
+
+// Categories routes
+Route::get('/categories', [CategoryController::class, 'list']);
+Route::get('/category/{id}', [CategoryController::class, 'show']);
+
+// Places routes
+Route::get('/places', [PlaceController::class, 'list']);
+Route::get('/place/{id}', [PlaceController::class, 'show']);
+
+// Comments routes
+Route::get('/comments', [CommentController::class, 'list']);
+Route::get('/comment/{id}', [CommentController::class, 'show']);
+
+// Users routes
+Route::get('/places', [UserController::class, 'list']);
+Route::get('/place/{id}', [UserController::class, 'show']);

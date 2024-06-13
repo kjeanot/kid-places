@@ -6,7 +6,7 @@ Saves, 0N User, 0N Place
 :
 Place: place_id, name, street, zip, city, country, lat, long, image
 Adds, 11 Place, 0N User
-User: email, nickname
+User: email, nickname, password
 
 :
 Has, 0N Place, 11 Comment
