@@ -1,0 +1,14 @@
+Category: category_id, name
+Belongs_to, 1N Category, 0N Place
+Saves, 0N User, 0N Place
+:
+
+:
+Place: place_id, name, street, zip, city, country, lat, long, image
+Adds, 11 Place, 0N User
+User: email, nickname
+
+:
+Has, 0N Place, 11 Comment
+Comment: comment_id, rate, content
+Posts, 0N User, 11 Comment

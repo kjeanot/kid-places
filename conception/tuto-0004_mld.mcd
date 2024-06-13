@@ -1,0 +1,20 @@
+%%mocodo
+:
+Category: category_id, name
+:
+Belongs_to: #category_id > Category > category_id, _#place_id > Place > place_id
+:
+Saves: #email > User > email, _#place_id > Place > place_id
+:::
+
+
+:::
+Place: place_id, name, street, zip, city, country, lat, long, image, #email > User > email
+:::
+User: email, nickname
+:
+
+
+:::::
+Comment: comment_id, rate, content, #place_id > Place > place_id, #email > User > email
+:::

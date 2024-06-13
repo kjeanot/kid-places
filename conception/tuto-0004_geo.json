@@ -1,0 +1,39 @@
+{
+  "width": 709,
+  "height": 397,
+  "cx": [
+    [ "CATEGORY", 86 ],
+    [ "BELONGS_TO", 291 ],
+    [ "SAVES", 463 ],
+    [ "PLACE", 291 ],
+    [ "ADDS", 463 ],
+    [ "USER", 636 ],
+    [ "HAS", 291 ],
+    [ "COMMENT", 463 ],
+    [ "POSTS", 636 ]
+  ],
+  "cy": [
+    [ "CATEGORY", 43 ],
+    [ "BELONGS_TO", 43 ],
+    [ "SAVES", 43 ],
+    [ "PLACE", 186 ],
+    [ "ADDS", 186 ],
+    [ "USER", 186 ],
+    [ "HAS", 346 ],
+    [ "COMMENT", 346 ],
+    [ "POSTS", 346 ]
+  ],
+  "shift": [
+    [ "BELONGS_TO,CATEGORY,0", 0 ],
+    [ "BELONGS_TO,PLACE,0", 0 ],
+    [ "SAVES,USER,0", 0 ],
+    [ "SAVES,PLACE,0", 0 ],
+    [ "ADDS,PLACE,0", 0 ],
+    [ "ADDS,USER,0", 0 ],
+    [ "HAS,PLACE,0", 0 ],
+    [ "HAS,COMMENT,0", 0 ],
+    [ "POSTS,USER,0", 0 ],
+    [ "POSTS,COMMENT,0", 0 ]
+  ],
+  "ratio": []
+}
