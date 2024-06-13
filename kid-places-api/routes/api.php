@@ -39,5 +39,5 @@ Route::get('/comments', [CommentController::class, 'list']);
 Route::get('/comment/{id}', [CommentController::class, 'show']);
 
 // Users routes
-Route::get('/places', [UserController::class, 'list']);
-Route::get('/place/{id}', [UserController::class, 'show']);
+Route::get('/users', [UserController::class, 'list']);
+Route::get('/user/{id}', [UserController::class, 'show']);

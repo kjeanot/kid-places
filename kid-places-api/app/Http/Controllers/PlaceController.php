@@ -14,6 +14,8 @@ class PlaceController extends Controller
 
     public function show(int $id) {
         $place = Place::find($id);
+        $place->load('comments');
+        $place->load('user');
 
         if (!$place) {
             return response()->json([
